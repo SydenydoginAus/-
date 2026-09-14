@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="悉尼留学生线下社交社区，认识一些有意思的人。">
+    <title>悉尼小狗在澳洲 | 留学生线下活动</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="返回首页">
+            <span class="brand-mark">🐶</span>
+            <span>悉尼小狗<span class="brand-light">在澳洲</span></span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+            <a class="active" href="#home">主页</a>
+            <a href="#events">本周活动</a>
+            <a href="#past-events">往期活动</a>
+            <a href="#about">关于小狗</a>
+        </nav>
+        <a class="header-cta" href="#signup">加入活动 <span>↗</span></a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>SYDNEY STUDENT COMMUNITY</p>
+                <h1>在悉尼，<br><em>认识一些</em><br>有意思的人。</h1>
+                <p class="hero-text">留学生的线下社交小天地。一起玩桌游、看海、吃饭，在陌生城市里，遇见合得来的人。</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#events">查看本周活动 <span>↗</span></a>
+                    <a class="button button-quiet" href="#signup">我要报名 <span>→</span></a>
+                </div>
+                <div class="social-proof">
+                    <div class="avatar-stack" aria-hidden="true"><span>🌊</span><span>🧋</span><span>🎲</span><span>+</span></div>
+                    <p><strong>已有 300+ 位</strong><br>小伙伴来过我们的活动</p>
+                </div>
+            </div>
+            <div class="hero-art" aria-label="悉尼海边活动插画">
+                <div class="sun"></div>
+                <div class="cloud cloud-one"></div>
+                <div class="cloud cloud-two"></div>
+                <div class="coastline coastline-back"></div>
+                <div class="coastline coastline-front"></div>
+                <div class="surfer">🏄</div>
+                <div class="art-note note-one">good vibes<br>only ✦</div>
+                <div class="art-note note-two">悉尼见！</div>
+                <div class="dog-badge">🐶<span>小狗<br>出没</span></div>
+            </div>
+        </section>
+
+        <section class="section events-section" id="events">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow"><span class="eyebrow-dot"></span>WHAT'S HAPPENING</p>
+                    <h2>本周，<em>线下见。</em></h2>
+                </div>
+                <a class="text-link" href="#past-events">查看全部活动 <span>→</span></a>
+            </div>
+            <article class="event-card">
+                <div class="event-image">
+                    <span class="event-tag">本周六 · 还剩 8 个位置</span>
+                    <div class="table-scene"><span>🎲</span><span>♠</span><span>🃏</span><span>♥</span></div>
+                    <div class="image-caption">PLAY<br>TOGETHER</div>
+                </div>
+                <div class="event-details">
+                    <p class="event-type">🎲 桌游 · 认识新朋友</p>
+                    <h3>悉尼留学生桌游夜</h3>
+                    <p class="event-description">不会玩也没关系，来认识一群有趣的人。游戏包括：阿瓦隆、狼人杀、UNO。</p>
+                    <div class="event-meta"><span>◷ 06.21 · 18:30</span><span>⌖ Haymarket, Sydney</span></div>
+                    <a class="button button-dark" href="#signup">我要报名 <span>↗</span></a>
+                </div>
+            </article>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="about-sticker">从线上<br>聊到线下<br><span>✦</span></div>
+            <div class="about-copy">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>ABOUT THE PUP</p>
+                <h2>来悉尼，不只是<br><em>一个人生活。</em></h2>
+                <p>“悉尼小狗在澳洲”是一个给留学生的线下社交社区。我们不办严肃的 networking，只想把一群真诚、有趣、愿意认识新朋友的人聚到一起。</p>
+                <a class="text-link" href="#signup">认识更多小狗 <span>→</span></a>
+            </div>
+            <div class="about-scribble">Sydney<br>is better<br>together <span>♡</span></div>
+        </section>
+
+        <section class="signup-section" id="signup">
+            <p class="eyebrow"><span class="eyebrow-dot"></span>COME SAY HI</p>
+            <h2>下一次见面，<em>你也来吧。</em></h2>
+            <form class="signup-form" id="registration-form">
+                <div class="form-grid">
+                    <label>昵称 <input name="nickname" type="text" required maxlength="80" placeholder="怎么称呼你？"></label>
+                    <label>微信号 <input name="wechat" type="text" required maxlength="100" placeholder="方便联系你"></label>
+                    <label>学校 <input name="school" type="text" maxlength="120" placeholder="例如：USYD"></label>
+                    <label>想参加的活动
+                        <select name="activity" required>
+                            <option value="" disabled selected>请选择活动</option>
+                            <option value="悉尼留学生桌游夜">悉尼留学生桌游夜</option>
+                        </select>
+                    </label>
+                </div>
+                <label class="form-full">想和小狗说点什么？ <textarea name="note" maxlength="500" placeholder="比如：想认识新朋友、第一次参加活动等"></textarea></label>
+                <label class="checkbox-label"><input name="first_time" type="checkbox"> 这是我第一次参加小狗的活动</label>
+                <button class="button button-primary form-submit" type="submit">提交报名 <span>↗</span></button>
+                <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section class="past-events" id="past-events" aria-label="往期活动">
+            <p>往期活动：海边野餐 · 悉尼徒步 · 火锅局 · 电影夜</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="#home"><span class="brand-mark">🐶</span><span>悉尼小狗<span class="brand-light">在澳洲</span></span></a>
+        <p>在悉尼，认识一些有意思的人。<br>Made with sunshine in Sydney ☀</p>
+        <div class="footer-links"><a href="#about">关于我们</a><a href="mailto:hello@sydney-pup.com">联系我们</a><a href="#home">Instagram ↗</a></div>
+    </footer>
+    <script type="module">
+        import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm";
+
+        const SUPABASE_URL = "https://vgykjcpooinkhgagvehg.supabase.co";
+        const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_x8uENMrbUGRTUCZAAorPpQ_fCCj54un";
+        const supabase = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+        const form = document.querySelector("#registration-form");
+        const submitButton = form.querySelector(".form-submit");
+        const message = document.querySelector("#form-message");
+
+        form.addEventListener("submit", async (event) => {
+            event.preventDefault();
+            submitButton.disabled = true;
+            submitButton.firstChild.textContent = "提交中... ";
+            message.textContent = "";
+            message.className = "form-message";
+
+            const formData = new FormData(form);
+            const registration = {
+                nickname: formData.get("nickname").trim(),
+                wechat: formData.get("wechat").trim(),
+                school: formData.get("school").trim(),
+                activity: formData.get("activity"),
+                first_time: formData.get("first_time") === "on",
+                note: formData.get("note").trim()
+            };
+
+            try {
+                const { error } = await supabase.from("registrations").insert(registration);
+
+                if (error) {
+                    message.textContent = `提交失败：${error.message}`;
+                    message.classList.add("error");
+                    return;
+                }
+
+                message.textContent = "报名成功！🐶 小狗会尽快联系你。";
+                message.classList.add("success");
+                form.reset();
+            } catch (error) {
+                const errorMessage = error instanceof Error ? error.message : String(error);
+                message.textContent = `提交失败：${errorMessage}`;
+                message.classList.add("error");
+            } finally {
+                submitButton.disabled = false;
+                submitButton.firstChild.textContent = "提交报名 ";
+            }
+        });
+    </script>
+</body>
+</html>
